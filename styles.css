@@ -7,10 +7,18 @@
   body {
     padding: 0;
     margin: 0;
-    background: #DE6262;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFB88C, #DE6262);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
 
+  @media (max-width:500px) {
+      body {
+        /*width:10%;
+        height:10%;*/
+        align-content: center;
+        size: 250px, 400px;
+      }
   }
   
   .calculator-grid {
