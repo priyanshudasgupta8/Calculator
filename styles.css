@@ -14,8 +14,8 @@
 
   @media (max-width:500px) {
       body {
-        width:10%;
-        height:10%;
+        /*width:10%;
+        height:10%;*/
         align-content: center;
         size: 250px, 400px;
       }
